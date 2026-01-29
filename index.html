@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company - Cultural Storytelling</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #F4F4F4;
+            color: #44403c;
+        }
+        
+        .hero-text {
+            font-weight: 300; /* Light */
+            line-height: 0.9;
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden">
+
+    <!-- Navigation -->
+    <nav class="flex flex-col md:flex-row justify-between items-center px-6 md:px-12 py-6 w-full">
+        <!-- Logo -->
+        <div class="mb-4 md:mb-0">
+            <a href="#" class="text-3xl font-semibold tracking-tight uppercase flex items-center gap-1 text-[#44403c]">
+                <span class="font-bold">Company</span>
+            </a>
+        </div>
+
+        <!-- Center Links -->
+        <div class="hidden md:flex gap-8 text-xs font-medium tracking-wide text-[#44403c]">
+            <a href="#" class="hover:text-[#ea580c] transition-colors">POEMS</a>
+            <a href="#" class="hover:text-[#ea580c] transition-colors">JOURNEYS</a>
+            <a href="#" class="hover:text-[#ea580c] transition-colors">POETS</a>
+            <a href="#" class="hover:text-[#ea580c] transition-colors">SERVICES</a>
+            <a href="#" class="hover:text-[#ea580c] transition-colors">ARCHIVE</a>
+        </div>
+
+        <!-- Right Actions -->
+        <div class="flex gap-8 text-xs font-medium tracking-wide">
+            <a href="#" class="flex items-center gap-2 text-[#44403c] hover:text-[#ea580c] transition-opacity">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M7 7l10 0l0 10" stroke="#ea580c"></path>
+                </svg>
+                GET STARTED
+            </a>
+            <a href="#" class="flex items-center gap-2 text-[#44403c] hover:text-[#ea580c] transition-opacity">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M7 7l10 0l0 10" stroke="#ea580c"></path>
+                </svg>
+                BOOK DEMO
+            </a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Top Section: Text -->
+        <div class="px-6 md:px-12 pt-20 pb-12 md:pt-32 md:pb-16 flex flex-col md:flex-row justify-between items-end">
+            
+            <!-- Left Paragraph -->
+            <div class="max-w-xs mb-10 md:mb-2">
+                <p class="text-xs font-medium leading-relaxed uppercase tracking-wide text-[#44403c]">
+                    At Company, we bridge cultural<br>
+                    gaps through rhythmic verse.<br>
+                    We transform exploration into<br>
+                    authentic sensory storytelling.
+                </p>
+            </div>
+
+            <!-- Right Heading -->
+            <div class="text-right">
+                <h1 class="hero-text text-6xl md:text-8xl lg:text-[9rem] tracking-tight text-[#44403c]">
+                    <span class="block">CULTURAL</span>
+                    <span class="block text-[#ea580c]">POETRY</span>
+                </h1>
+            </div>
+        </div>
+
+        <!-- Image Strip -->
+        <div class="w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 h-[400px] md:h-[500px] lg:h-[600px] border-y border-[#44403c]">
+            <!-- Image 1: Abstract/Dark -->
+            <div class="relative w-full h-full overflow-hidden group border-r border-[#44403c]">
+                <img src="https://imolwncbqxugevwmleed.supabase.co/storage/v1/object/public/public-assets/hero-images/7bd18a76-bcb2-4c93-b8a2-e615031f0968/hero-1-img-0-1769696694811.png" alt="Moroccan Texture" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+            </div>
+            
+            <!-- Image 2: Hands -->
+            <div class="relative w-full h-full overflow-hidden group border-r border-[#44403c]">
+                <img src="https://imolwncbqxugevwmleed.supabase.co/storage/v1/object/public/public-assets/hero-images/7bd18a76-bcb2-4c93-b8a2-e615031f0968/hero-1-img-1-1769696694607.png" alt="Writing Poetry" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+            </div>
+
+            <!-- Image 3: Silhouette -->
+            <div class="relative w-full h-full overflow-hidden group border-r border-[#44403c]">
+                <img src="https://imolwncbqxugevwmleed.supabase.co/storage/v1/object/public/public-assets/hero-images/7bd18a76-bcb2-4c93-b8a2-e615031f0968/hero-1-img-2-1769696694814.png" alt="Desert Silhouette" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+            </div>
+
+            <!-- Image 4: Portrait Yellow -->
+            <div class="relative w-full h-full overflow-hidden group border-r border-[#44403c]">
+                <img src="https://images.unsplash.com/photo-1528154291023-a6525fabe5b4?q=80&w=600&h=900&auto=format&fit=crop" alt="Local Poet" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+            </div>
+
+            <!-- Image 5: Mirror Red -->
+            <div class="relative w-full h-full overflow-hidden group border-r border-[#44403c]">
+                <img src="https://images.unsplash.com/photo-1542662565-7e4b66bae529?q=80&w=600&h=900&auto=format&fit=crop" alt="Moroccan Architecture" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+            </div>
+
+            <!-- Image 6: Interior Orange -->
+            <div class="relative w-full h-full overflow-hidden group">
+                <img src="https://images.unsplash.com/photo-1518101416628-8d48a901f46f?q=80&w=600&h=900&auto=format&fit=crop" alt="Authentic Interior" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+            </div>
+        </div>
+
+        <!-- Bottom Text -->
+        <div class="px-6 md:px-12 pt-4 pb-20 flex flex-col md:flex-row justify-between items-start">
+            <div class="mt-4">
+                <button class="bg-[#ea580c] text-white px-8 py-3 text-xs font-bold tracking-widest uppercase hover:bg-[#44403c] transition-colors">
+                    EXPLORE THE VERSE
+                </button>
+            </div>
+            <h1 class="hero-text text-6xl md:text-8xl lg:text-[9rem] tracking-tight text-[#44403c]">
+                REIMAGINED
+            </h1>
+        </div>
+    </main>
+
+    <footer class="px-6 md:px-12 py-12 border-t border-[#44403c] flex flex-col md:flex-row justify-between items-center text-[10px] tracking-[0.2em] text-[#44403c] uppercase">
+        <div>&copy; 2024 Company. All rights reserved.</div>
+        <div class="flex gap-8 mt-4 md:mt-0">
+            <a href="#" class="hover:text-[#ea580c]">Privacy Policy</a>
+            <a href="#" class="hover:text-[#ea580c]">Terms of Service</a>
+            <a href="#" class="hover:text-[#ea580c]">Instagram</a>
+        </div>
+    </footer>
+
+</body>
+</html>
